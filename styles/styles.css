@@ -6,6 +6,14 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+.hidden {
+    display: none;
+}
+
+.warming-up-message>div {
+    display: inline-block;
+}
+
 .root {
     display: flex;
     place-content: center flex-start;
@@ -152,6 +160,10 @@ body {
     width: min-content;
     will-change: transform;
     cursor: pointer;
+}
+
+.generate-button.disabled {
+    background-color: #ffffff50;
 }
 
 .generate {
